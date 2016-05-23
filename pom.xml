@@ -22,6 +22,6 @@
 
 	</dependencies>
 	<build>
-		<finalName>mybank</finalName>
+		<finalName>ROOT</finalName>
 	</build>
 </project>
