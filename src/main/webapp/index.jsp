@@ -7,6 +7,13 @@ contentType="text/html; charset=UTF-8"%>
 <link href="css/style.css" rel="stylesheet" type="text/css"/>
 </head>
 
+<%
+
+  //This is a demo
+  String app = "MyBank";
+
+%>
+
 <body>
 	<div class="title">
 	
