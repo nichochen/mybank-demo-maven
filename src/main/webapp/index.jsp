@@ -10,7 +10,7 @@ contentType="text/html; charset=UTF-8"%>
 <body>
 	<div class="title">
 	
-	<div style="float: left;margin-left:20px;"><%= com.example.demo.Application.getTitle() %></div>
+	<div style="float: left;margin-left:20px;"><%= com.example.demo.Application.getTitle() %> | 世界银行</div>
 	
 	<div style="float: right;margin-right:20px;">服务器:
 		<%=java.net.InetAddress.getLocalHost().getHostName()%>

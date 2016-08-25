@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+org.jboss.tools.openshift.Connection=https\://dev@master.example.com\:8443
+org.jboss.tools.openshift.DeployProject=mybank
+org.jboss.tools.openshift.PodPath=/wildfly/standalone/deployments
+org.jboss.tools.openshift.Service=mybank@mybank
+org.jboss.tools.openshift.SourcePath=${workspace_loc\:/mybank}

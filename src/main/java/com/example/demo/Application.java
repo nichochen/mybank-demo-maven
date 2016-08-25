@@ -2,7 +2,7 @@ package com.example.demo;
 
 public class Application {
 
-	private static String title = "World Bank | 世界银行";
+	private static String title = "World Bank";
 
 	public static String getTitle() {
 		return title;
