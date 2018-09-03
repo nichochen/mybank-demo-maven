@@ -1,9 +1,7 @@
 
-  node("maven") {
-        stage('Build') { 
-            steps {
-                sh 'mvn -B -DskipTests clean package' 
-            }
-        }
- }
+node("maven") {
+  stage('Build') { 
+    sh 'mvn -B -DskipTests clean package' 
+  }
+}
 
