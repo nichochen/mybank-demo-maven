@@ -16,8 +16,11 @@ public class DataService {
 	private String datebasePassword = "";
 
 	public DataService() {
-		this.setDatebaseIp(System.getenv("MYSQL_MASTER_SERVICE_HOST").replaceAll("\"", ""));
-		this.setDatebasePort(System.getenv("MYSQL_MASTER_SERVICE_PORT").replaceAll("\"", ""));
+		String host = System.getenv("MYSQL_MASTER_SERVICE_HOST");
+		String port = System.getenv("MYSQL_MASTER_SERVICE_PORT");
+		
+		this.setDatebaseIp((host == null ? "": host).replaceAll("\"", ""));
+		this.setDatebasePort((port == null ? "": port).replaceAll("\"", ""));
 		this.setDatebaseName("sampledb");
 		this.setDatebaseUsername("dev");
 		this.setDatebasePassword("welcome1");
