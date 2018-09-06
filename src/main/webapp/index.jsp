@@ -21,6 +21,5 @@ contentType="text/html; charset=UTF-8"%>
 	<img style="margin:50px;" src="images/small_bank.png"><br>
 		<div class="linkbox"><a href="offices.jsp">--服务网点--</a></div>
 	</div>
-	
-</body>
+	</body>
 </html>
