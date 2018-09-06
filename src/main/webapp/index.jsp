@@ -18,7 +18,7 @@ contentType="text/html; charset=UTF-8"%>
 	</div>
 	
 	<div class="main">
-	<img style="margin:50px;" src="images/big_bank.png"><br>
+	<img style="margin:50px;" src="images/small_bank.png"><br>
 		<div class="linkbox"><a href="offices.jsp">--服务网点--</a></div>
 	</div>
 	
